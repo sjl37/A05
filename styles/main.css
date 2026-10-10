@@ -1,0 +1,23 @@
+/* Chapter 3 reference stylesheet. Keep the HTML structure and browser-default
+   heading/list appearance used in the exercise's sample screenshot. */
+
+body {
+    margin: 8px;
+    color: #111;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.25;
+}
+
+header img,
+.speakers img {
+    display: block;
+}
+
+.speakers article {
+    margin-bottom: 1.25rem;
+}
+
+/* A small improvement for phone-sized screens, without changing the task. */
+img {
+    max-width: 100%;
+}
